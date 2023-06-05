@@ -18,6 +18,12 @@ function divide (a,b){
     return (a/b)
 }
 
+const imprimir = (texto) => {
+    console.log(texto);
+}
+
+imprimir("Hola Mundo")
+
 console.log(suma(3,8));
 console.log(resta(10,2));
 console.log(multiplica(3,8));
